@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>micro-frontend</title>
+</head>
+<body>
+  <h1>micro-frontend</h1>
+
+  <div id="app"></div>
+  <script type="module">
+    import { importHTML } from './src/loader.js'
+    importHTML('http://localhost:9001/')
+  </script>
+</body>
+</html>

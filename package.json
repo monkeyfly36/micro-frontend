@@ -1,0 +1,25 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:base": "nodemon server.js",
+    "dev:app1": "nodemon app1/server1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monkeyfly36/micro-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monkeyfly36/micro-frontend/issues"
+  },
+  "homepage": "https://github.com/monkeyfly36/micro-frontend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
